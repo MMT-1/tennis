@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    .insta {
+      width: 100%;
+    }
+  }
+@media screen and (min-width: 768px) {
+    .insta {
+    width: 50%;
+    }
+}
+.container{
+    margin-top: 80px;
+}
+iframe{
+    height: 800px;
+}
+.if iframe{
+    height: 400px;
+    width: 80%;
+
+}
