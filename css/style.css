@@ -1,0 +1,89 @@
+.nav-link{
+    color: rgb(168, 168, 168);
+    font-size: 13px;
+}
+.nav-link:hover{
+    color: rgb(0, 92, 0);
+}
+.nav-link:active{
+    color: rgb(0, 92, 0);
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+.bg {
+    margin-top: 0px;
+    background: url(../img/Djokovictani.jpeg);
+    background-attachment: fixed;
+    height: 650px;
+    width: 100%;
+    min-height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.text1{
+    color: white;
+    padding-top: 24%;
+    
+}
+.card{
+    border: none;
+    outline: none;
+    box-shadow: 1px 1px 8px #888888;
+}
+.card:hover{
+    box-shadow: 3px 3px 8px #888888;
+    transition: .5s;
+}
+.card:hover{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: green;
+    transition: 0.5s;
+}
+.shoptext{
+    position: absolute;
+    bottom: 0;
+}
+.itemshop .card{
+    position: relative;
+    overflow: hidden;
+    
+}
+.itemshop {
+    max-width: 410px;
+    margin: auto;
+    
+}
+.image img{
+    
+    resize: none;
+    
+    transform: scale(1);
+    transition: 0.8s ease-in-out;
+}
+.image img:hover{
+    transform: scale(1.5);
+}
+.shoptext h4{
+    color: white;
+    text-shadow: 4px 4px 16px black;
+}
+#back{
+    height: 310px;
+}
